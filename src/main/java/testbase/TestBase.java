@@ -1,6 +1,7 @@
 package testbase;
 
 import java.io.FileInputStream;
+
 import java.time.Duration;
 import java.util.Properties;
 
@@ -8,7 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.testng.annotations.AfterMethod;
+//import org.testng.annotations.AfterMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
@@ -48,8 +49,8 @@ public class TestBase {
 		driver.get(prop.getProperty("url"));
 	}
 
-	@AfterMethod
-	public void teardownBrowser() {
-		driver.quit();
-	}
+//	@AfterMethod
+//	public void teardownBrowser() {
+//		driver.quit();
+//	}
 }
