@@ -1,0 +1,1 @@
+{"uuid":"ce67a5fe-3321-458a-a73a-50dfaec45b58","name":"com.testcases.Login.setup","children":["6e70cdff-05f8-4fd4-850b-55095dab537f"],"description":"","befores":[{"name":"setup","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1709881978329,"stop":1709881982781}],"afters":[],"start":1709881978328,"stop":1709881982782}
